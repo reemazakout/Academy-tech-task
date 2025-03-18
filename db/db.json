@@ -1,0 +1,68 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "React for Beginners",
+      "description": "Learn the basics of React.js and build interactive UIs.",
+      "instructor": "John Doe",
+      "duration": "4 weeks",
+      "image": "https://c8.alamy.com/comp/2DAW2TH/react-js-inscription-against-laptop-and-code-background-learn-react-programming-language-computer-courses-training-2DAW2TH.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Advanced JavaScript",
+      "description": "Deep dive into JavaScript concepts and ES6+ features.",
+      "instructor": "Jane Smith",
+      "duration": "6 weeks",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_1280.png"
+    },
+    {
+      "id": "3",
+      "title": "UI/UX Design Principles",
+      "description": "Master UI/UX design techniques and tools for creating user-friendly interfaces.",
+      "instructor": "Alice Johnson",
+      "duration": "5 weeks",
+      "image": "https://community.nasscom.in/sites/default/files/media/images/What%20is%20UIUX%20Transformation%20and%20How%20Does%20it%20Benefit%20Businesses-04_0.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Full-Stack Web",
+      "description": "Become a full-stack developer with React, Node.js, and MongoDB.",
+      "instructor": "Michael Brown",
+      "duration": "8 weeks",
+      "image": "https://www.skillreactor.io/blog/wp-content/uploads/2024/05/Full-Stack-Developer.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Python for Data Science",
+      "description": "Learn Python fundamentals and apply them to data science projects.",
+      "instructor": "Emily Wilson",
+      "duration": "6 weeks",
+      "image": "https://blog.hyperiondev.com/wp-content/uploads/2017/12/py_machine.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Machine Learning Essentials",
+      "description": "Understand core machine learning concepts and algorithms.",
+      "instructor": "Robert Garcia",
+      "duration": "7 weeks",
+      "image": "https://emeritus.org/in/wp-content/uploads/sites/3/2023/03/types-of-machine-learning.jpg.optimal.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Cybersecurity Fundamentals",
+      "description": "Explore the basics of cybersecurity, ethical hacking, and data protection.",
+      "instructor": "Sophia Martinez",
+      "duration": "5 weeks",
+      "image": "https://media.istockphoto.com/id/1339203360/photo/cyber-security-inscription-against-laptop-and-code.jpg?s=612x612&w=0&k=20&c=Tf9AB_vCLVO40ocTWRHN8DUDW5B9vSgtAxG1kRkWlJM="
+    },
+    {
+      "id": "8",
+      "title": "Digital Marketing Strategy",
+      "description": "Master SEO, social media marketing, and online advertising techniques.",
+      "instructor": "David Johnson",
+      "duration": "4 weeks",
+      "image": "https://www.michaelpageafrica.com/sites/michaelpageafrica.com/files/legacy/7_digital_skills600x387.png"
+    }
+  ]
+}
