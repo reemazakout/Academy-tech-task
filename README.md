@@ -1,55 +1,86 @@
-# React + TypeScript + Vite
+# TECH Academy of Programming - Front-End Project (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive web application for managing a list of programming courses, built with React and several modern libraries.
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React vite
+- React Router DOM
+- Tailwind CSS
+- React Query
+- Zod (for data validation)
+- React Hook Form
+- React Toast
 
-## Expanding the ESLint configuration
+## 📋 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- View a list of programming courses with details:
+  - Course Title
+  - Description
+  - Instructor Name
+  - Duration
+  - Image
+- Add new courses with a user-friendly form in the admin page
+- Delete existing courses from the list
+- Search functionality to filter courses by title
+- Responsive design for all device sizes
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🛠️ Installation & Setup
+
+### Prerequisites
+
+- Node.js (version 18 or higher)
+- npm or yarn
+
+### Installation Steps
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/reemazakout/Academy-tech-task.git
+cd Academy-tech-task
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Install dependencies:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+npm install
+# or
+yarn install
 ```
-# Academy-tech-task
+
+3. Start the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+4. Start the JSON Server (database):
+
+```bash
+npm run server
+```
+
+## 💾 Database Setup
+
+The application uses JSON Server as a mock backend. To configure:
+
+1. Make sure you have the `db.json` file in the root directory
+2. The server will run on port 5005 by default
+3. The database contains collections for courses
+
+## 🚀 Deployment
+
+Build the application for production:
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+## 👥 Contributor
+
+- [Reema Waleed Zakout]
