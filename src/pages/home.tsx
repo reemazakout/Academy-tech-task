@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "../components/homepage/components/header";
 import SearchInput from "../components/homepage/components/search-input";
-import CardList from "../components/homepage/course/card-list";
+import CardList from "../components/homepage/components/course/courses-list";
 
 export default function Home() {
   // State to hold search query

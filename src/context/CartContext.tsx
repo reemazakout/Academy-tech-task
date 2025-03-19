@@ -57,7 +57,6 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   };
 
   // Decrease item quantity
-  // Decrease item quantity
   const decreaseQuantity = (id: string) => {
     setCart(
       (prevCart) =>

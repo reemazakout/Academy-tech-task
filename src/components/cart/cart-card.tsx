@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { CartContext } from "../../../context/CartContext"; // Make sure the path is correct
+import { CartContext } from "../../context/CartContext"; // Make sure the path is correct
 import { Link } from "react-router-dom";
 
 export default function CartCard() {

@@ -4,7 +4,7 @@ export default function AdminForm() {
   const { register, handleSubmit, onSubmit, errors, isSubmitting, mutation } =
     useAddCourse();
 
-  // Simple form submission without toast
+  // Handle form submission
   const handleFormSubmit = handleSubmit((data) => {
     onSubmit(data);
   });

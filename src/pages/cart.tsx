@@ -1,4 +1,4 @@
-import CartCard from "../components/homepage/cart/cart-card";
+import CartCard from "../components/cart/cart-card";
 
 export default function Cart() {
   return (

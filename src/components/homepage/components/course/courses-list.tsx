@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import Card from "./courses-card";
-import CardSkeleton from "../../skeletones/card.skeleton";
-import { Courses } from "../../../utils/types/courses";
+import CardSkeleton from "../../../skeletones/card.skeleton";
+import { Courses } from "../../../../utils/types/courses";
 
 export default function CardList({ searchQuery }: { searchQuery: string }) {
   // Get the API base URL
