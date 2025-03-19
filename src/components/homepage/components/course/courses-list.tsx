@@ -2,6 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import Card from "./courses-card";
 import CardSkeleton from "../../../skeletones/card.skeleton";
 import { Courses } from "../../../../utils/types/courses";
+import { useMemo } from "react";
 
 export default function CardList({ searchQuery }: { searchQuery: string }) {
   // Get the API base URL
@@ -35,6 +36,13 @@ export default function CardList({ searchQuery }: { searchQuery: string }) {
     refetchOnReconnect: true,
   });
 
+  // Filter courses based on the search query by using useMemo to prevent the re-render
+  const filteredCourses = useMemo(() => {
+    return data?.filter((course: Courses) =>
+      course.title.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+  }, [data, searchQuery]);
+
   // Display an error message if there's an issue
   if (error) {
     return (
@@ -43,11 +51,6 @@ export default function CardList({ searchQuery }: { searchQuery: string }) {
       </div>
     );
   }
-
-  // Filter courses based on the search query
-  const filteredCourses = data?.filter((course: Courses) =>
-    course.title.toLowerCase().includes(searchQuery.toLowerCase())
-  );
 
   return (
     <div className="container mx-auto min-h-screen py-5">

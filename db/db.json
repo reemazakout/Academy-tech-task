@@ -63,6 +63,14 @@
       "instructor": "David Johnson",
       "duration": "4 weeks",
       "image": "https://www.michaelpageafrica.com/sites/michaelpageafrica.com/files/legacy/7_digital_skills600x387.png"
+    },
+    {
+      "id": "4b52",
+      "title": "Talwind CSS",
+      "description": "lorem 20 deknfla af afke frfwspr fkiw feie[q fiep eow;wf fid gf fig rpg r gprny",
+      "instructor": "Reema Waleed",
+      "duration": "2 weeks",
+      "image": "https://v3.tailwindcss.com/_next/static/media/tailwindui-small@75.8bb955b2.jpg"
     }
   ]
 }
